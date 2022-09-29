@@ -5,3 +5,7 @@ Render a square and inside square write Hello world
 Capturing a tap using Button Component and alert ,'Hello world'
 # Exercise 3
 Rather than Button Componenet use 'TouchableOpacity' and 'Text' Component.
+# Exercise 4
+Custom Button
+# Exercise 5
+Custom Button Extra Styling
