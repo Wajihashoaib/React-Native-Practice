@@ -13,7 +13,10 @@ Custom Button Extra Styling
 Props are immutable but state is mutable.Props are normally passed from parent component to its child component. But, state is maintained in each component.
 Using props, we can change the state of a parent component
 # Navigation 
-Stack.Navigator is a component that takes route configuration as its children with additional props for configuration and renders our content.
-Each Stack.Screen component takes a name prop which refers to the name of the route and component prop which specifies the component to render for the route. These are the 2 required props.
-To specify what the initial route in a stack is, provide an initialRouteName as the prop for the navigator.
-To specify screen-specific options, we can pass an options prop to Stack.Screen, and for common options, we can pass screenOptions to Stack.Navigator
+
+<b>createNativeStackNavigator</b> is a function that returns an object containing 2 properties: Screen and Navigator.</br></br>
+<b>NavigationContainer</b> is a component which manages our navigation tree and contains the navigation state.</br></br>
+<b>Stack.Navigator</b> is a component that takes route configuration as its children with additional props for configuration and renders our content.</br></br>
+Each <b>Stack.Screen component takes a name prop which refers to the name of the route and component prop which specifies the component to render for the route. These are the 2 required</b> props.</br></br>
+To specify what the initial route in a stack is, provide an <b>initialRouteName</b> as the prop for the navigator.</br></br>
+To specify screen-specific options, we can pass an <b>options</b> prop to Stack.Screen, and for common options, we can pass screenOptions to Stack.Navigator
